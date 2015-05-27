@@ -226,6 +226,7 @@ p {
 	transform-style: inherit;
 }
 
+
 img {
   position: absolute;
   top: 50%;
@@ -253,11 +254,25 @@ img:last-of-type {
 }
 
 .title {
-  width: 50%;
+  width: 100%;
   padding: 5%;
-  border-radius: 5px;
-  background: rgba(240,230,220, .7);
+  border-radius: 15px;
+  border-style: dotted;
+  border-color: rgba(177, 163, 255);
+  background:white;
   box-shadow: 0 0 8px rgba(0, 0, 0, .7);
+}
+
+.slidetitle {
+	background-image: url('img/desert.jpg');
+  width: 100%;
+  padding: 5%;
+  border-radius: 15px;
+  border-style: dotted;
+  border-color: rgba(177, 163, 255);
+  background:black;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .7);
+  text-decoration: underline;
 }
 
 .projecttitle{
