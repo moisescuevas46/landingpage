@@ -1,6 +1,10 @@
 body{
 	background-image: url('img/darkbrickwall.png');
 }
+.topimg{
+	background-image: url('img/mooncastle.jpg');
+	background-position: right;
+}
 
 .aftercar{
 	height: 300px;
